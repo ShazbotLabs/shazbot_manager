@@ -1,0 +1,6 @@
+name: Shazbot Manager
+type: module
+description: The Core Shazbot Manager
+core: 8.x
+package: Shazbot
+
