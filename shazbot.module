@@ -2,7 +2,7 @@
 
 /**
  * @file
- * Contains shazbot_manager.module.
+ * Contains shazbot.module.
  */
 
 use Drupal\Core\Routing\RouteMatchInterface;
@@ -10,10 +10,10 @@ use Drupal\Core\Routing\RouteMatchInterface;
 /**
  * Implements hook_help().
  */
-function shazbot_manager_help($route_name, RouteMatchInterface $route_match) {
+function shazbot_help($route_name, RouteMatchInterface $route_match) {
   switch ($route_name) {
-    // Main module help for the shazbot_manager module.
-    case 'help.page.shazbot_manager':
+    // Main module help for the shazbot module.
+    case 'help.page.shazbot':
       $output = '';
       $output .= '<h3>' . t('About') . '</h3>';
       $output .= '<p>' . t('The Core Shazbot Manager') . '</p>';
@@ -26,7 +26,7 @@ function shazbot_manager_help($route_name, RouteMatchInterface $route_match) {
 /**
  * Implements hook_theme().
  */
-function shazbot_manager_theme() {
+function shazbot_theme() {
   $theme = [];
 
   return $theme;
