@@ -1,14 +1,14 @@
 {
-  "name": "drupal/shazbot_manager",
+  "name": "drupal/shazbot",
   "type": "drupal-module",
   "description": "The Core Shazbot Manager",
   "keywords": ["Drupal"],
   "license": "GPL-2.0+",
-  "homepage": "http://drupal.org/project/shazbot_manager",
+  "homepage": "https://github.com/ShazbotManager/shazbot",
   "minimum-stability": "dev",
   "support": {
-    "issues": "http://drupal.org/project/issues/shazbot_manager",
-    "source": "http://cgit.drupalcode.org/shazbot_manager"
+    "issues": "https://github.com/ShazbotManager/shazbot/issues",
+    "source": "git@github.com:ShazbotManager/shazbot.git"
   },
   "require": { }
 }
